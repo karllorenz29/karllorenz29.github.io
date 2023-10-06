@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 10% 4%;
+    box-shadow: 2px 7px 12px -4px rgba(0,0,0,0.71);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.all {
+    padding: 30px;
+}
+
+body {
+    background-image: url(images/milad-fakurian-GJKx5lhwU3M-unsplash.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Karla', sans-serif;
+}
+
+.first {
+    background-color: hsl(204, 43%, 93%);
+}
+
+.second {
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+}
+
+.third {
+    background-color: hsl(218, 22%, 67%);
+    color: hsl(204, 43%, 93%);
+}
+
+.first h2, .first p {
+    color: hsl(179, 62%, 43%);
+}
+
+.first h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.per {
+    opacity: .5;
+}
+
+.dollar {
+    font-size: 2.3rem;
+}
+
+.third p {
+    opacity: .7;
+    line-height: 21px;
+    font-size: .8rem;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(204, 43%, 93%);
+    padding: 15px 15px;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.price {
+    display: flex;
+}
+
+.per {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+@media (min-width: 650px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 625px;
+        margin: 13% auto; 
+    }
+
+    .below {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second, .third {
+        flex-basis: 50%;
+    }
+
+    .first {
+        height: 200px;
+    }
+}

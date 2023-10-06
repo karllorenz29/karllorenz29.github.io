@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bangsal-nam-9HMGyZJfrk8-unsplash.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    font-family: 'Karla', sans-serif;
+    padding: 10px 0;
+    border: none;
+    border-radius: 3px;
+    background-color: #468237;
+    color: lightgray;
+    box-shadow: 6px 5px 15px 1px rgba(0,0,0,0.68);
+}
+
+button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.left {
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+main {
+    margin: 20% 10% 10% 10%;
+}
+
+.trial {
+    background-color: #33136b;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    color: lightgray;
+    box-shadow: 10px 22px 17px -6px rgba(0,0,0,0.65);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/augustine-wong-oebTM5wHTfw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 5px;
+    padding-top: 40px;
+    box-shadow: 10px 22px 17px -6px rgba(0,0,0,0.65);
+}
+
+#last-name, #email-address, #password {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px 10px;
+    font-family: 'Karla', sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+@media (min-width: 800px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 12%;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+    }
+
+    .left {
+        margin: auto 7% auto 0;
+        max-width: 500px;
+    }
+}

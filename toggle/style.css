@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/henry-co--odUkx8C2gg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+input {
+    -webkit-appearance: none;
+    position: relative;
+    height: 26px;
+    width: 40px;
+    border-radius: 15px;
+    transition: background .4s;
+    background-color: black;
+    outline: none;
+    cursor: pointer;
+}
+
+input:hover {
+    opacity: .8;
+}
+
+input:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    background-color: white;
+    transition: left .4s;
+}
+
+input:checked {
+    background-color: #2e2c8f;
+}
+
+input:checked::after {
+    left: 70%;
+}
+
+.toggle p {
+    margin-top: 1px;
+    opacity: .8;
+}
+
+.toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+.side, .middle {
+    border-radius: 10px;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+    box-shadow: 10px 13px 29px -5px rgba(0,0,0,0.68);
+    width: 375px;
+}
+
+.middle, .right {
+    margin-top: 20px;
+}
+
+.middle {
+    background-color: #2e2c8f;
+    color: whitesmoke;
+    padding: 50px 40px 60px 40px;
+}
+
+.side {
+    background-color: whitesmoke;
+}
+
+.border {
+    border-top: 1px solid lightgray;
+    padding: 15px 0;
+}
+
+.cent, #mid {
+    border-top: 1px solid navy;
+}
+
+#mid {
+    border-bottom: 1px solid navy;
+}
+
+.dollar {
+    font-size: 1.6rem;
+    margin-top: 9px;
+}
+
+.price {
+    font-size: 2.5rem;
+    margin-left: 5px;
+}
+
+button {
+    padding: 15px 0;
+    width: 100%;
+    border: none;
+    background-color: #2e2c8f;
+    border-radius: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 7px 9px 29px -5px rgba(0,0,0,0.68);
+}
+
+button:hover {
+    opacity: .8;
+}
+
+.mid {
+    background-color: whitesmoke;
+    color: #2e2c8f;
+}
+
+.bot {
+    border-bottom: 1px solid lightgray;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0 0 0;
+}
+
+@media (min-width: 1200px) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .middle, .right {
+        margin: 0;
+    }
+
+    .side {
+        width: 400px;
+        height: 425px;
+        margin-top: 2%;
+    }
+
+}
