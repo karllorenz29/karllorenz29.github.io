@@ -18,6 +18,7 @@ button {
     background-color: #468237;
     color: lightgray;
     box-shadow: 6px 5px 15px 1px rgba(0,0,0,0.68);
+    transition: opacity .5s;
 }
 
 button:hover {
@@ -70,6 +71,7 @@ input {
 a {
     color: red;
     text-decoration: none;
+    transition: opacity .5s;
 }
 
 a:hover {

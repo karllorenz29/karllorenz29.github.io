@@ -7,7 +7,7 @@
 main {
     margin: 10% 4%;
     box-shadow: 2px 7px 12px -4px rgba(0,0,0,0.71);
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -65,6 +65,7 @@ button {
     width: 100%;
     font-size: 1rem;
     font-family: 'Karla', sans-serif;
+    transition: opacity .5s;
 }
 
 button:hover {

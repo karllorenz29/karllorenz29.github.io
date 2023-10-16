@@ -1,5 +1,5 @@
 const wen = () => {
-    alert ("Karl lang pogi!!");
+    alert ("Thanks for signing up!");
 }
 
 document.querySelector('button').onclick = wen;

@@ -18,7 +18,7 @@ input {
     height: 26px;
     width: 40px;
     border-radius: 15px;
-    transition: background .4s;
+    transition: opacity .5s;
     background-color: black;
     outline: none;
     cursor: pointer;
@@ -129,6 +129,7 @@ button {
     color: whitesmoke;
     cursor: pointer;
     box-shadow: 7px 9px 29px -5px rgba(0,0,0,0.68);
+    transition: opacity .5s;
 }
 
 button:hover {
