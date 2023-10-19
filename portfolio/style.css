@@ -24,7 +24,7 @@ nav ul a {
 }
 
 nav img {
-    width: 145px;
+    width: 120px;
     height: 62px;
 }
 
@@ -65,8 +65,8 @@ nav ul li:hover::after {
 }
 
 #header {
-    background-image: url(images/background.png);
-    background-position: center;
+    background-image: url(images/DSC_0045.JPG);
+    background-position: top;
     background-size: cover;
     width: 100%;
     height: 100vh;
